@@ -1,8 +1,151 @@
+/* --- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+You sent
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*
+///////////////////////////// COLORS:
+
+BUTTON PRIMARY: #e64980;
+
+GREY: #343a40 
+
+SHADES: 
+GREY: #212529;  
+PINK: #d6336c;
+
+*/
+
 * {
   padding: 0;
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 160rem;
+}
+
+/* hero section */
+.section__hero {
+  background-color: #f8f0fc;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  background-color: #f8f0fc;
+}
+
+.logo {
+  height: 6.8rem;
+  width: 6.8rem;
+  color: #555;
+}
+
+.nav__links__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav__link {
+  font-size: 2rem;
+}
+
+.linkoza:link,
+.linkoza:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.linkoza:active,
+.linkoza:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+.check:link,
+.check:visited {
+  padding: 1.3rem 3.2rem;
+  width: 3rem;
+  background-color: #e64980;
+  border-radius: 5rem;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.check:active,
+.check:hover {
+  background-color: #d6336c;
+  font-weight: 600;
+}
+
+.hero__main__content {
+  background-color: #f8f0fc;
+  border-top: 1px solid #f1f3f5;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 4.2rem;
+  margin-top: 7.8rem;
+  justify-content: center;
+}
+
+.hero__text__div {
+  margin-top: 10rem;
+}
+.heading__primary {
+  font-size: 5.8rem;
+  color: #212529;
+  font-weight: 700;
+}
+
+.hero__text__paragraph {
+  font-size: 2rem;
+  color: #343a40;
+  margin-top: 2.2rem;
+  line-height: 1.5;
+}
+
 .hero__img {
-  width: 50%;
+  width: 100%;
+}
+
+.btn--hero {
+  padding: 1.4rem 4.2rem;
+  background-color: #e64980;
+  border-radius: 5rem;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 2.2rem;
+  transition: all 0.3s;
+}
+
+.btn--hero:hover,
+.btn--hero:active {
+  background-color: #d6336c;
 }
