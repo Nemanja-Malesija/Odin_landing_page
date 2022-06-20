@@ -235,7 +235,7 @@ html {
 .div__cta {
   padding: 7.4rem 6.2rem;
   background-color: #f8f0fc;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .heading__tertiary {
@@ -257,7 +257,7 @@ html {
 /* footer */
 
 .footer {
-  height: 6.2rem;
+  height: 5.2rem;
   background-color: #f8f0fc;
   display: flex;
   align-items: center;
