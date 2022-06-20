@@ -12,13 +12,15 @@ You sent
 /*
 ///////////////////////////// COLORS:
 
+BACKGROUND: #f8f0fc;
+
 BUTTON PRIMARY: #e64980;
 
 GREY: #343a40 
 
 SHADES: 
 GREY: #212529;  
-PINK: #d6336c;
+PINK (BUTTON): #d6336c;
 
 */
 
@@ -36,9 +38,14 @@ html {
   font-size: 62.5%;
 }
 
+.section {
+  margin-bottom: 9.2rem;
+}
+
 .container {
   margin: 0 auto;
-  width: 160rem;
+  width: 140rem;
+  margin-bottom: 9.2rem;
 }
 
 /* hero section */
@@ -51,8 +58,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  background-color: #f8f0fc;
+  padding: 2rem 6rem;
+  margin-bottom: 9.2rem;
 }
 
 .logo {
@@ -104,20 +111,18 @@ html {
 }
 
 .hero__main__content {
-  background-color: #f8f0fc;
   border-top: 1px solid #f1f3f5;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: start;
   padding: 0 4.2rem;
-  margin-top: 7.8rem;
-  justify-content: center;
 }
 
 .hero__text__div {
   margin-top: 10rem;
 }
 .heading__primary {
-  font-size: 5.8rem;
+  font-size: 5.4rem;
   color: #212529;
   font-weight: 700;
   letter-spacing: 2px;
@@ -152,4 +157,58 @@ html {
 .btn--hero:hover,
 .btn--hero:active {
   background-color: #d6336c;
+}
+
+/* Section building photos */
+
+.building__photos__div {
+  display: flex;
+  gap: 3.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.building {
+  max-width: 35rem;
+  height: 35rem;
+  border: 26px solid #f8f0fc;
+  border-radius: 10px;
+}
+
+.heading__secondary {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 9.2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.figure__text {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.section__lorem {
+  background-color: #f8f0fc;
+  position: relative;
+}
+
+.blockquote__lorem {
+  font-size: 3.2rem;
+  width: 90rem;
+  margin: 0 auto;
+  padding-top: 15rem;
+  padding-bottom: 20rem;
+  color: #343a40;
+}
+
+.quote__author {
+  font-size: 2.4rem;
+  position: absolute;
+  top: 65%;
+  right: 28%;
+  font-weight: 700;
+  color: #212529;
 }

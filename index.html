@@ -14,29 +14,29 @@
     <title>Landing page</title>
   </head>
   <body>
-    <section class="section__hero">
+    <section class="section section__hero">
+      <nav class="nav">
+        <div>
+          <img class="logo" src="imgs/logo.png" alt="logo" />
+        </div>
+        <div class="nav__links__container">
+          <ul class="nav__links__list">
+            <li class="nav__link">
+              <a class="linkoza" href="#">Header link one</a>
+            </li>
+            <li class="nav__link">
+              <a class="linkoza" href="#">Header link two</a>
+            </li>
+            <li class="nav__link">
+              <a class="linkoza" href="#">Header link three</a>
+            </li>
+            <li class="nav__link">
+              <a class="linkoza check" href="#">Let's talk</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="container container__hero">
-        <nav class="nav">
-          <div>
-            <img class="logo" src="imgs/logo.png" alt="logo" />
-          </div>
-          <div class="nav__links__container">
-            <ul class="nav__links__list">
-              <li class="nav__link">
-                <a class="linkoza" href="#">Header link one</a>
-              </li>
-              <li class="nav__link">
-                <a class="linkoza" href="#">Header link two</a>
-              </li>
-              <li class="nav__link">
-                <a class="linkoza" href="#">Header link three</a>
-              </li>
-              <li class="nav__link">
-                <a class="linkoza check" href="#">Let's talk</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
         <div class="hero__main__content">
           <div class="hero__text__div">
             <h1 class="heading__primary">This website is awesome</h1>
@@ -55,6 +55,60 @@
             />
           </div>
         </div>
+      </div>
+    </section>
+    <section class="section section__random">
+      <div class="container container__random">
+        <h2 class="heading__secondary">Some random information</h2>
+        <div class="building__photos__div">
+          <figure class="figure fiture1">
+            <img
+              class="building building1"
+              src="imgs/building1.avif"
+              alt="modern building with black glass"
+            />
+            <p class="figure__text">This is some subtext under the image</p>
+          </figure>
+          <figure class="figure figure2">
+            <img
+              class="building building1"
+              src="imgs/building2.avif"
+              alt="modern building "
+            />
+            <p class="figure__text">This is some subtext under the image</p>
+          </figure>
+          <figure class="figure figure3">
+            <img
+              class="building building3"
+              src="imgs/building3.avif"
+              alt="modern building"
+            />
+            <p class="figure__text">This is some subtext under the image</p>
+          </figure>
+          <figure class="figure figure4">
+            <img
+              class="building building4"
+              src="imgs/building4.avif"
+              alt="modern building"
+            />
+            <p class="figure__text">This is some subtext under the image</p>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="section section__lorem">
+      <div class="container container__lorem">
+        <figure class="figure__lorem">
+          <blockquote class="blockquote__lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            nesciunt iusto quis ducimus repellat maxime provident eaque
+            consequuntur vero officia. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </blockquote>
+          <figcaption class="quote__author">
+            <em>-Thor, God of Thunder</em>
+          </figcaption>
+        </figure>
       </div>
     </section>
   </body>
