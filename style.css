@@ -39,7 +39,7 @@ html {
 }
 
 .section {
-  margin-bottom: 9.2rem;
+  margin-bottom: 17rem;
 }
 
 .container {
@@ -141,7 +141,7 @@ html {
   border-radius: 3px;
 }
 
-.btn--hero {
+.btn {
   padding: 1.4rem 4.2rem;
   background-color: #e64980;
   border-radius: 5rem;
@@ -150,8 +150,11 @@ html {
   font-size: 2rem;
   font-weight: 600;
   display: inline-block;
-  margin-top: 2.2rem;
   transition: all 0.3s;
+}
+
+.btn--hero {
+  margin-top: 2.2rem;
 }
 
 .btn--hero:hover,
@@ -173,6 +176,11 @@ html {
   height: 35rem;
   border: 26px solid #f8f0fc;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.building:hover {
+  transform: scale(1.2);
 }
 
 .heading__secondary {
@@ -188,7 +196,10 @@ html {
   font-size: 1.6rem;
   margin-top: 1.2rem;
   letter-spacing: 0.5px;
+  color: #212529;
 }
+
+/* section lorem */
 
 .section__lorem {
   background-color: #f8f0fc;
@@ -211,4 +222,49 @@ html {
   right: 28%;
   font-weight: 700;
   color: #212529;
+}
+
+/* section cta */
+
+.container__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div__cta {
+  padding: 7.4rem 6.2rem;
+  background-color: #f8f0fc;
+  border-radius: 5px;
+}
+
+.heading__tertiary {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+  color: #212529;
+}
+
+.cta__paragraph {
+  font-size: 2.4rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+}
+
+.btn__cta {
+  font-size: 2.4rem;
+}
+
+/* footer */
+
+.footer {
+  height: 6.2rem;
+  background-color: #f8f0fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__paragraph {
+  font-size: 1.4rem;
+  color: #495057;
 }
