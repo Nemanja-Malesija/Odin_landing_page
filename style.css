@@ -28,7 +28,7 @@ PINK: #d6336c;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 html {
@@ -119,17 +119,20 @@ html {
   font-size: 5.8rem;
   color: #212529;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .hero__text__paragraph {
   font-size: 2rem;
   color: #343a40;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 .hero__img {
   width: 100%;
+  border-radius: 3px;
 }
 
 .btn--hero {
