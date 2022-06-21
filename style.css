@@ -44,7 +44,7 @@ html {
 
 .container {
   margin: 0 auto;
-  width: 140rem;
+  width: 120rem;
   margin-bottom: 9.2rem;
 }
 
@@ -63,8 +63,8 @@ html {
 }
 
 .logo {
-  height: 6.8rem;
-  width: 6.8rem;
+  height: 6rem;
+  width: 6rem;
   color: #555;
 }
 
@@ -77,7 +77,7 @@ html {
 }
 
 .nav__link {
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.5px;
 }
 
@@ -122,14 +122,14 @@ html {
   margin-top: 10rem;
 }
 .heading__primary {
-  font-size: 5.4rem;
+  font-size: 4.6rem;
   color: #212529;
   font-weight: 700;
   letter-spacing: 2px;
 }
 
 .hero__text__paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #343a40;
   margin-top: 2rem;
   line-height: 1.5;
@@ -137,7 +137,7 @@ html {
 }
 
 .hero__img {
-  width: 100%;
+  width: 80%;
   border-radius: 3px;
 }
 
@@ -147,7 +147,7 @@ html {
   border-radius: 5rem;
   color: #fff;
   border: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   display: inline-block;
   transition: all 0.3s;
@@ -172,9 +172,9 @@ html {
 }
 
 .building {
-  max-width: 35rem;
-  height: 35rem;
-  border: 26px solid #f8f0fc;
+  max-width: 30rem;
+  height: 30rem;
+  border: 10px solid #f8f0fc;
   border-radius: 10px;
   transition: all 0.5s;
 }
@@ -193,7 +193,7 @@ html {
 
 .figure__text {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-top: 1.2rem;
   letter-spacing: 0.5px;
   color: #212529;
@@ -207,7 +207,7 @@ html {
 }
 
 .blockquote__lorem {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   width: 90rem;
   margin: 0 auto;
   padding-top: 15rem;
@@ -216,7 +216,7 @@ html {
 }
 
 .quote__author {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   position: absolute;
   top: 65%;
   right: 28%;
@@ -233,25 +233,29 @@ html {
 }
 
 .div__cta {
-  padding: 7.4rem 6.2rem;
+  padding: 6rem 5rem;
   background-color: #f8f0fc;
   border-radius: 6px;
 }
 
 .heading__tertiary {
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   margin-bottom: 2rem;
   color: #212529;
 }
 
 .cta__paragraph {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #343a40;
   margin-bottom: 2rem;
 }
 
 .btn__cta {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.btn__cta:hover {
+  background-color: #d6336c;
 }
 
 /* footer */
