@@ -63,9 +63,9 @@ html {
 }
 
 .logo {
-  height: 6rem;
-  width: 6rem;
-  color: #555;
+  height: 5rem;
+  width: 5rem;
+  color: #343a40;
 }
 
 .nav__links__list {
@@ -111,11 +111,9 @@ html {
 }
 
 .hero__main__content {
-  border-top: 1px solid #f1f3f5;
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: start;
-  padding: 0 4.2rem;
 }
 
 .hero__text__div {
