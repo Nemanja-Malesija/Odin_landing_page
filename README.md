@@ -2,7 +2,7 @@
 
 My second The odin challenge:
 
-// This project consists of nav, 5 sections and a footer
+// This project consists of naviga, 5 sections and a footer
 
 // nav:
 Ued flexbox to align items. In the nav there is a logo, and an unordered list with last link which is call to action.
